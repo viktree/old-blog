@@ -26,7 +26,6 @@
 .sidebar-icon {
   background-color: var(--main-bg-content);
   color: var(--main-sidebar-color);
-  opacity: 80%;
   padding: 2px;
   margin: 10px 5px;
   border-radius: 50%;
@@ -35,10 +34,6 @@
 .sidebar-icon:hover {
   background-color: var(--main-bg-content);
   color: var(--sidebar-links);
-}
-
-.sidebar-license {
-  opacity: 60%;
 }
 
 .sidebar-links {
@@ -58,9 +53,6 @@
 }
 
 @media (max-width: 48rem) {
-  .sidebar-speech-bubble {
-    opacity: 60%;
-  }
   .sidebar-icon {
     display: none;
   }
