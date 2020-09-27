@@ -55,7 +55,7 @@
     "clean": "gatsby clean",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,css,ts,tsx,json,md}\"",
-    "lint": "eslint --ext .js,.jsx --ignore-pattern public src",
+    "lint": "eslint --ext .js,.jsx src",
     "prepare": "yarn run snyk-protect",
     "serve": "gatsby serve",
     "snyk-protect": "snyk protect",
@@ -64,7 +64,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "[ ! -e .nvmrc ] && node -v  > .nvmrc || : && git add .nvmrc && pretty-quick --staged"
+      "pre-commit": "[ ! -e .nvmrc ] && node -v  > .nvmrc || : && git add .nvmrc && pretty-quick --staged && eslint --ext .js,.jsx src"
     }
   },
   "snyk": true,
