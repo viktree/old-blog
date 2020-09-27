@@ -43,6 +43,7 @@
     "eslint-plugin-react": "^7.19.0",
     "husky": "^4.3.0",
     "prettier": "2.1.1",
+    "pretty-quick": "^3.0.2",
     "snyk": "^1.401.0"
   },
   "keywords": [
@@ -60,6 +61,11 @@
     "snyk-protect": "snyk protect",
     "start": "gatsby develop",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "[ ! -e .nvmrc ] && node -v  > .nvmrc || : && git add .nvmrc && pretty-quick --staged"
+    }
   },
   "snyk": true,
   "repository": {
