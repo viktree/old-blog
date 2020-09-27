@@ -1,0 +1,27 @@
+/* :root { */
+/*   --main-bg-gutter: #b8c4bb; */
+/*   --main-bg-content: #e8f7ee; */
+/*   --main-sidebar-color: #263238; */
+/*   --main-crimson: #5f1112; */
+/* } */
+:root {
+  --main-bg-gutter: #5b9279;
+  --main-bg-content: #ddd5d0;
+  --main-fg-content: #000000;
+  --main-sidebar-color: #263238;
+  --sidebar-links: #ff7f11;
+  --main-accent-content: #5f1112;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Bitter, serif;
+}
+
+body {
+  font-family: PT Sans, sans-serif;
+}
