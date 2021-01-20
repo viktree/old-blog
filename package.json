@@ -6,7 +6,7 @@
   "author": "Vikram Venkataramanan <vikram.venkataramanan@mail.utoronto.ca>",
   "dependencies": {
     "disqus-react": "^1.0.10",
-    "gatsby": "^2.24.83",
+    "gatsby": "^2.31.0",
     "gatsby-image": "^2.5.0",
     "gatsby-plugin-feed": "^2.7.0",
     "gatsby-plugin-manifest": "^2.4.32",
