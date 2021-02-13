@@ -1,10 +1,14 @@
 import React from "react"
 
+import "./index.css"
+
 const BlogPost = ({ title, date, timeEstimate, rawPost }) => (
   <article className="blog-post" itemScope itemType="http://schema.org/Article">
     <header>
-      <h1 itemProp="headline">{title}</h1>
-      <p>
+      <h1 className="blog-post-title" itemProp="headline">
+        {title}
+      </h1>
+      <p className="blog-post-datetime">
         {date} | {timeEstimate}
       </p>
     </header>

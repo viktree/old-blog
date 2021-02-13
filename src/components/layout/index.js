@@ -18,6 +18,7 @@ const Layout = ({ children }) => {
       <div className="content-outer">
         <div className="content">{children}</div>
       </div>
+      <div />
     </div>
   )
 }
