@@ -14,7 +14,7 @@ body,
   display: flex;
 }
 
-@media (max-device-width: 400px) {
+@media (max-device-width: 480px) {
   .flex-grid {
     display: block;
   }
