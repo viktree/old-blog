@@ -61,5 +61,6 @@ body,
 @media (min-device-width: 992px) {
   .content {
     padding: 2rem 4rem;
+    width: 60%;
   }
 }

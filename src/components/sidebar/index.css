@@ -52,6 +52,10 @@
   color: var(--sidebar-links);
 }
 
+.sidebar-license {
+  font-size: 70%;
+}
+
 @media (max-device-width: 480px) {
   .sidebar-icon {
     display: none;

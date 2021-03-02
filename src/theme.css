@@ -4,13 +4,27 @@
 /*   --main-sidebar-color: #263238; */
 /*   --main-crimson: #5f1112; */
 /* } */
-:root {
-  --main-bg-gutter: #5b9279;
+
+/* --main-bg-gutter: #5b9279;
   --main-bg-content: #ddd5d0;
   --main-fg-content: #000000;
   --main-sidebar-color: #263238;
   --sidebar-links: #ff7f11;
-  --main-accent-content: #5f1112;
+  --main-accent-content: #5f1112; */
+
+:root {
+  --main-bg-gutter: #d7d7d9;
+  --main-bg-content: #d7d7d9;
+
+  --main-fg-content: #184059;
+  --main-fg-secondary: #8c2f1b;
+  --main-fg-accent: #5d8aa6;
+
+  --main-sidebar-color: #184059;
+  --sidebar-links: #bf7b3f;
+
+  --main-accent-content: #5d8aa6;
+  --alt-accent-content: #bf7b3f;
 }
 
 h1,
@@ -20,6 +34,15 @@ h4,
 h5,
 h6 {
   font-family: Bitter, serif;
+  color: var(--alt-accent-content);
+}
+
+h1 {
+  color: var(--main-fg-secondary);
+}
+
+h1:hover {
+  text-decoration: underline;
 }
 
 body {

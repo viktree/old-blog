@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+.post-navigator a {
+  color: var(--alt-accent-content) !important;
+}
+
 .post-nav {
   text-decoration: none;
 }

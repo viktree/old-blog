@@ -2,13 +2,13 @@
 .netlify-contact-form textarea {
   width: 100%;
   box-sizing: border-box;
-  border: 2px solid var(--main-sidebar-color);
+  border: 2px solid var(--main-fg-content);
   background-color: var(--main-bg-content);
   padding: 1% 1%;
 }
 
 .netlify-contact-form button {
-  background-color: var(--main-sidebar-color);
+  background-color: var(--main-fg-content);
   width: 100%;
   color: var(--main-bg-content);
   padding: 1%;

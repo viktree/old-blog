@@ -28,7 +28,7 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       <h1>Blog Posts</h1>
-      {posts.map(BlogPost)}
+      <ul>{posts.map(BlogPost)}</ul>
     </Layout>
   )
 }
