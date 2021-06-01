@@ -32,7 +32,7 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^3.11.0",
-    "react-typography": "^0.16.19",
+    "react-typography": "^0.16.20",
     "typeface-bitter": "0.0.71",
     "typeface-fira-code": "^1.1.4",
     "typeface-pt-sans": "0.0.72",
